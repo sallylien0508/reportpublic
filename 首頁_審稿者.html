@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>輔仁管理評論 投稿系統</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+      
+    <style type="text/css">
+        
+        .row1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap:1em;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap:1em;
+}
+
+.box1{
+    border: none;
+    align-items: center;
+    
+}
+.input1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #61D2B4;
+    color: #61D2B4;
+    font-size: 22px;
+    font-family: "微軟正黑體";
+    background: transparent;
+    outline: none;
+    
+                
+}
+.input1:hover{
+    border: 2px solid #61D2B4;
+    transform : scale(1.3);
+    background-color: #61D2B4;
+    color: white;
+    
+}
+#pricing{
+    background-image:url(./img/testimonial-bg.jpg);
+    background-size: cover;
+    color: white;    
+}
+        
+#team{
+    background-color: #61D2B4;
+    opacity: 0.8;
+    color: white;
+            
+}
+#blog{
+    font-family: "微軟正黑體";
+}
+.copyright{
+    text-align: center;
+    justify-content: center;
+
+}
+.modal-dialog{
+  color:black;
+}
+        .b1:hover{
+            color: black;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Header Section Start -->
+    <header id="hero-area" data-stellar-background-ratio="0.5">    
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a href="index.html" class="navbar-brand"><h1><font color="#61D2B4">FU JEN</font></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="lnr lnr-menu"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#hero-area">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#services">Identity</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link page-scroll" href="#features">LogIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#portfolios">Manager</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#pricing">Contributor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#team">Reviewer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#blog">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+           <li>
+              <a class="page-scroll" href="#hero-area">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#services">Identity</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolios">Manager</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#pricing">Contributor</a>
+            </li>
+            <li >
+              <a class="page-scroll" href="#team">Reviewer</a>
+            </li>
+            <li >
+              <a class="page-scroll" href="#blog">Introduction</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->   
+      <div class="container">      
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <div class="contents text-center">
+              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">輔仁管理評論投稿系統</h1>
+              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">FU JEN Management Review Submission System </p>
+              <div class="container" style="max-width: 400px">
+                  <div class="row1">
+                      <div class="fact-count">
+                        <h5><span class="counter">10</span></h5>
+                        <h6>Online Users</h6>
+                      </div>
+                    <p><font size="8">|</font></p>
+                      <div class="fact-count">
+                        <h5><span class="counter">699</span></h5>
+                        <h6>Manuscripts</h6>
+                      </div>
+                  </div>
+              </div>
+                
+            <!--
+              <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Ge=t Start</a>
+            -->
+            </div>
+          </div>
+        </div> 
+      </div>           
+    </header>
+    <!-- Header Section End --> 
+
+    <!-- Services Section Start -->
+  <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Identity</h2>
+          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                  <a href="./%E9%A6%96%E9%A0%81_%E7%AE%A1%E7%90%86%E8%80%85.html"><i class="fas fa-user-cog"></i></a>
+              </div>
+              <h4>Manager</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
+              <div class="icon">
+                  <a href="./%E9%A6%96%E9%A0%81_%E6%8A%95%E7%A8%BF%E8%80%85.html"><i class="fas fa-users"></i></a>
+              </div>
+              <h4>Contributor</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon">
+                <a href="./%E9%A6%96%E9%A0%81_%E5%AF%A9%E7%A8%BF%E8%80%85.html"><i class="fas fa-users"></i></a>
+              </div>
+              <h4>Reviewer</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Features Section Start -->
+    
+    <section id="features" class="section" data-stellar-background-ratio="0.2">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">LogIn</h2>
+          <hr class="lines">
+          <p><br></p>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="icon">
+                <span style="font-size: 48px;">
+                    <div class="icon" >
+                       <i class="fas fa-user-alt" size='7x'  color ='blue'></i>
+                    </div>
+                </span>
+              </div>                              
+            </div>
+            <div class="col-md-12">
+              <p><font color='white'><b>Reviewer</b></font></p>               
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type='text' name= 'userName' placeholder="userName" size='40'>
+                <div class="help-block with-errors"></div>
+              </div> 
+            </div>
+            <div class="col-md-12">
+              <div class="form-group"> 
+                <input type='password' name= 'userPWD' placeholder="passWord" size='40'>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="submit-button text-center">
+                <button class="btn btn-common" id="submit" type="submit" style="width:150px;height:40px;">提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交</button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                <div class="clearfix"></div> 
+                <div style="display: flex;justify-content: center;">
+                  <p>沒有帳戶?&nbsp;&nbsp;</p>
+                  <p onclick="showModal()"><b>註冊</b></p>
+                </div>
+                <div class="modal" tabindex="-1" role="dialog" id="modal">
+                  <div class="modal-dialog" role="document"> 
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h5 class="modal-title">sign up</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                         </div>
+                         <div class="modal-body">
+                             <p align='left'><font color='red'>*為必填</font></p>
+                             <p align='left'><font color='red'>*</font>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名: &nbsp;&nbsp;<input type='text' name= 'UserName' placeholder="UserName" size='40'></p>
+                             <p align="left"><font color='red'>*</font>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;別:&nbsp;&nbsp;<input name='gender' type="radio" sexual="男" value="man">男&nbsp;&nbsp;
+                              <input name='gender'type="radio" sexual="女" value="gril">女</p>
+                             <p align='left'><font color='red'>*</font>帳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;號: &nbsp;&nbsp;<input type='text' name= 'ID' placeholder="ID" size='40'></p>
+                             <p align='left'><font color='red'>*</font>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;碼: &nbsp;&nbsp;<input type='password' name= 'userPWD' placeholder="Password" size='20'></p>
+                             <p align='left'><font color='red'>*</font>確認密碼: &nbsp;&nbsp;<input type='password' name= 'userPWD' placeholder="Password" size='20'></p>
+                             <p align='left'>&nbsp;行動電話: &nbsp;&nbsp;<input type='tel' pattern="[0-9]{4}(\-[0-9]{6})" placeholder="例如0912-345678" title="例如0912-345678"></p>
+                             <p align='left'>&nbsp;電子郵件: &nbsp;&nbsp;<input type='email' name= 'E-mail' placeholder="E-mail" size='40'></p>
+                             <p align='left'>&nbsp;通訊地址: &nbsp;&nbsp;<input type="test" name= 'contact-address' placeholder="contact-address" size="40"></p>
+                             
+             
+                         </div>
+                         <div class="modal-footer">
+                             <button type="button" class="btn btn-secondary" data-dismiss="modal" >取消</button>
+                             <button type="button" class="btn btn-primary"  onclick="confirm('新增成功')" style="background-color:#61D2B4;border-color: #61D2B4;">送出</button>
+                         </div>
+                    </div>
+                </div>
+                <script>
+                  function showModal() {
+                       $('#modal').modal('show'); 
+                  }
+              </script></p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- Features Section End -->    
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Manager</h2>
+          <hr class="lines">
+          <p class="section-subtitle"></p>
+        </div>
+          
+        <div class="container1">
+            <div class="box1" align="center">
+                <a href="./spring/%E7%AE%A1%E7%90%86%E8%80%85_%E5%B8%B3%E8%99%9F%E7%AE%A1%E7%90%86.html"><input class="input1" type="button" value="帳號管理"></a>
+            </div>
+            <div class="box1" align="center"></div>
+            <div class="box1" align="center">
+                <a href="./spring/%E7%AE%A1%E7%90%86%E8%80%85_%E7%B7%9A%E4%B8%8A%E6%8A%95%E7%A8%BF.html"><input class="input1" type="button" value="線上投稿"></a>
+            </div>
+            <div class="box1" align="center"></div>
+            <div class="box1" align="center">
+                <a href="./spring/%E7%AE%A1%E7%90%86%E8%80%85_%E5%9B%9E%E8%A6%86%E5%95%8F%E9%A1%8C.html"><input class="input1" type="button" value="回覆問題"></a>
+            </div>
+            <div class="box1" align="center"></div>
+            <div class="box1" align="center">
+                <a href="./spring/%E7%AE%A1%E7%90%86%E8%80%85_%E9%85%8D%E7%A8%BF%E7%AE%A1%E7%90%86.html"><input class="input1" type="button" value="配稿管理"></a>
+            </div>
+            <div class="box1" align="center"></div>
+            <div class="box1" align="center">
+                <a href="./spring/%E7%AE%A1%E7%90%86%E8%80%85_%E7%A8%BF%E4%BB%B6%E7%AE%A1%E7%90%86.html"><input class="input1" type="button" value="稿件管理"></a>
+            </div>
+            <div class="box1" align="center"></div>
+        </div>
+          
+          
+          
+          
+          
+          
+          
+        <div class="row">
+            
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <!--
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Design 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Development
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Print 
+              </a>
+            </div>
+            -->
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+          
+          <!-- Portfolio Recent Projects -->
+          <!--
+          <div id="portfolio" class="row">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img1.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img1.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img2.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img2.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img3.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img3.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img4.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img4.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img5.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img5.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="img/portfolio/img6.jpg" alt="" />  
+                  <a class="overlay lightbox" href="img/portfolio/img6.jpg">
+                    <i class="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>               
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Start Video promo Section -->
+      
+   <!--
+    <section class="video-promo section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="video-promo-content text-center">
+                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Watch Our Intro video</h2>
+                <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper orci.</p>
+                <a href="https://www.youtube.com/watch?v=IXoMDwh4Cq8" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-film-play"></i></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!-- End Video Promo Section -->
+
+    <!-- Start Pricing Table Section -->
+    <div id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title"><font color="white">Contributor</font></h2>
+          <hr class="lines">
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div data-wow-delay="0.2s">
+              <div class="icon" style="display: flex;flex-direction: column;align-items: center">
+               
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="100px"
+	 viewBox="0 0 64 62" enable-background="new 0 0 64 62" xml:space="preserve">
+<title>Inbox-upload</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Inbox-upload" transform="translate(2.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M36,1h14.9
+			c1.3,0,2.3,0.6,2.3,1.9L61,33.3"/>
+		<path id="Shape_2_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M0.2,32.16l8-29.26
+			C8.2,1.97,9,1,10.3,1h14.8"/>
+		<path id="Shape_3_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M5.1,25h50.7"/>
+		<path id="Shape_4_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M7,19h16"/>
+		<path id="Shape_5_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M8,12.9h10"/>
+		<path id="Shape_6_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M38,19h16"/>
+		<path id="Shape_7_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M42,13h11"/>
+		<path id="Shape_8_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M10,7h10"/>
+		<path id="Shape_9_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M41,7h10"/>
+		<g id="Group" transform="translate(22.000000, 0.000000)" sketch:type="MSShapeGroup">
+			<path id="Shape_10_" fill="none" stroke="#fff" stroke-width="2" d="M13.7,12h3.7c0.3,0,0.6-0.2,0.6-0.5l-7.8-11
+				C10,0.2,9.9,0,9.6,0H8.5C8.3,0,8.1,0.2,7.9,0.5L0,11.5C0,11.8,0.3,12,0.6,12H4"/>
+			<path id="Shape_11_" fill="none" stroke="#fff" stroke-width="2" d="M5,10v10"/>
+			<path id="Shape_12_" fill="none" stroke="#fff" stroke-width="2" d="M13,10v10"/>
+		</g>
+		<path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M60.9,57.7c0,1.3-1,2.3-2.3,2.3
+			H2.2c-1.2,0-2.3-1-2.3-2.3V33.3c0-1.3,1-2.3,2.3-2.3h56.4c1.2,0,2.3,1,2.3,2.3V57.7L60.9,57.7z"/>
+		<path id="Shape_13_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M41,46c0,3.3-4.4,6-9.9,6
+			S21,49.3,21,46"/>
+	</g>
+</g>
+</svg>
+                  
+                  <h8 class="abcde"  style="margin-top: 20px"><a href="./spring/%E6%8A%95%E7%A8%BF%E8%80%85_%E6%88%91%E7%9A%84%E6%9C%9F%E5%88%8A.html">我要投稿</a></h8>
+        </div>
+             
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-sm-6" >
+            <div data-wow-delay="1.2s"padding-left:50%;>
+            <div class="icon" style="display: flex;flex-direction: column;align-items: center">
+             
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="100px"
+	 viewBox="0 0 56 64" enable-background="new 0 0 56 64" xml:space="preserve">
+<title>Document-heart</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Document-heart" transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,56v4c0,1.1-0.9,2-2,2H2
+			c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h25.9L47,18.1v25.5"/>
+		<path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,18.9H30c-1.1,0-2-0.9-2-2V1"/>
+		<path id="Shape_2_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,17h13"/>
+		<path id="Shape_3_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,27h31"/>
+		<path id="Shape_4_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,34h31"/>
+		<path id="Shape_5_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,43h22"/>
+		<path id="Shape_6_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,49h16"/>
+		<path id="Shape_7_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M45,45.1c-1.4-3.1-9-3.3-9,2.2
+			c0,4.3,7.4,9.8,9,9.8s9-5.5,9-9.8c0-6.1-9.8-5.7-9.8,0.8"/>
+	</g>
+</g>
+</svg>
+                <h7 class="abcd" style="margin-top: 20px"><a href="./spring/%E6%8A%95%E7%A8%BF%E8%80%85_%E5%B7%B2%E5%AE%8C%E6%88%90%E7%A8%BF%E4%BB%B6.html">我的稿件</a></h7>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+               
+              
+         
+              
+    <!-- End Pricing Table Section -->
+    <!-- Counter Section End -->
+
+    <!-- Team section Start -->
+     <!--
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Our Team</h2>
+          <hr class="lines">
+          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team1.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Jhon Doe</h4>
+                  <p>Chief Technical Officer</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team2.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Paul Kowalsy</h4>
+                  <p>CEO & Co-Founder</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team3.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">                  
+                  <h4 class="team-title">Emilly Williams</h4>
+                  <p>Business Manager</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img class="img-fulid" src="img/team/team4.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Patricia Green</h4>
+                  <p>Graphic Designer</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      -->
+    <!-- Team section End -->
+
+    <!-- testimonial Section Start -->
+ 
+
+                
+    <!-- testimonial Section Start -->
+
+    <!-- Blog Section -->
+    <section id="team" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title"><font color="white">Reviewer</font></h2>
+          <hr class="lines">
+        </div>
+           <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="icon" style="display: flex;flex-direction: column;align-items: center">
+            <div data-wow-delay="0.2s">
+              <div class="icon">
+ 
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="100px"
+	 viewBox="0 0 59 64" enable-background="new 0 0 59 64" xml:space="preserve">
+<title>Document-edit</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Document-edit" transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,45v15c0,1.1-0.9,2-2,2H2
+			c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h25.9L47,18.1V33"/>
+		<path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,18.9H30c-1.1,0-2-0.9-2-2V1"/>
+		<path id="Shape_2_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,17h13"/>
+		<path id="Shape_3_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,27h31"/>
+		<path id="Shape_4_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,34h31"/>
+		<path id="Shape_5_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,43h24"/>
+		<path id="Shape_6_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,49h17"/>
+		<g id="Group" transform="translate(27.000000, 29.000000)" sketch:type="MSShapeGroup">
+			<path id="Shape_8_" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" d="M0,30l3.9-9.4L24.2,0.3
+				c0.4-0.4,1.1-0.4,1.6,0l3.9,3.9c0.4,0.4,0.4,1.1,0,1.6L9.4,26.1L0,30z"/>
+			<path id="Shape_9_" fill="none" stroke="#fff" stroke-width="2" d="M21.9,2.7l5.4,5.4"/>
+		</g>
+	</g>
+</g>
+</svg>
+
+              </div>
+                <h8 class="abcde"><a class="b1" href="./spring/%E5%AF%A9%E7%A8%BF%E8%80%85_%E5%BE%85%E5%AF%A9%E7%A8%BF%E4%BB%B6.html">待審稿件</a></h8>
+             
+            </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-6 col-sm-6" >
+            <div data-wow-delay="1.2s"padding-left:50%;>
+             <div class="icon" style="display: flex;flex-direction: column;align-items: center">
+              <div class="icon" >
+                <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="100px"
+	 viewBox="0 0 49 64" enable-background="new 0 0 49 64" xml:space="preserve">
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Document" transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,18.1V60c0,1.1-0.9,2-2,2H2
+			c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h25.9L47,18.1L47,18.1z"/>
+		<path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M47,18.9H30c-1.1,0-2-0.9-2-2V1"/>
+		<path id="Shape_2_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,17h13"/>
+		<path id="Shape_3_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,27h31"/>
+		<path id="Shape_4_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,34h31"/>
+		<path id="Shape_5_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,43h31"/>
+		<path id="Shape_6_" sketch:type="MSShapeGroup" fill="none" stroke="#fff" stroke-width="2" d="M9,49h31"/>
+	</g>
+</g>
+</svg>
+
+              </div>
+              <h7 class="abcd"><a class="b1" href="./spring/%E5%AF%A9%E7%A8%BF%E8%80%85_%E6%89%80%E6%9C%89%E8%A9%95%E9%96%B1.html">所有評閱</a></h7>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+                   
+
+      <section id="blog" class="section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Introduction</h2>
+          <hr class="lines">
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/analytics-blur-business-close-up-590045.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">行銷管理</h4>
+                  <p>是一種分析、規劃、執行及控制的一連串過程，藉此程序以制訂創意、產品或服務的觀念化、訂價、促銷與配銷等決策，進而創造能滿足個人和組織目標的交換活動。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/abundance-bank-banking-banknotes-259027.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">財務管理</h4>
+                  <p>是對組織內的資金需要及資金籌措提供可能性的調整活動。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/business-code-coding-computer-270360.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">                  
+                  <h4 class="team-title">資訊管理</h4>
+                  <p>是從一個或多個來源中蒐集並管理資訊，並分配這些資訊給一個或更多的人閱讀。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img class="img-fulid" src="img/master-card-visa-credit-card-gold-164501.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">國際貿易</h4>
+                  <p>是指跨越國境的貨品和服務交易，一般由進口貿易和出口貿易所組成，因此也可稱之為進出口貿易。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/photo-of-people-near-wooden-table-3184418.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">管理與政策</h4>
+                  <p>是決策層次最高的一種管理，包括確定策略性的目標，發展並執行策略性的計劃來達成目標。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/worms-eye-view-of-blue-high-rise-building-149656.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">國際企業</h4>
+                  <p>是相對於國內企業而言的一個籠統性概念，它泛指一切以國際市場需求的導向、在兩個或兩個以上的國家和地區間從事經營活動的企業，包括我們通常所說的跨國公司、多國企業和其他國際性公司等等。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/person-using-forklift-1267338.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">生產與作業管理</h4>
+                  <p>是指為實現企業的經營目標，有效地利用生產資源，對生產作業過程進行組織、計劃、控制，生產出滿足社會需要、市場需求的產品或提供服務的管理活動。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/airport-bank-board-business-534216.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">統計</h4>
+                  <p>是在資料分析的基礎上，研究測定、收集、整理、歸納和分析反映資料資料，以便給出正確訊息的科學。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/photo-of-people-doing-handshakes-3183197.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">人力資源管理</h4>
+                  <p>是指企業的一系列人力資源政策以及相應的管理活動。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/black-calculator-near-ballpoint-pen-on-white-printed-paper-53621.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">數量方法</h4>
+                  <p>是研究經濟理論的方法之一。 通常包含兩個層次，一是應用數學方法作為推理工具，以建立經濟理論模型，並引伸出有關的經濟法則，一是應用計量分析法，以實際統計資料，對經濟理論進行實證分析，以檢定某項理論是否能予接受，並從事預測及設計工作。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/white-graphing-paper-164686.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">會計</h4>
+                  <p>是以研究人類的財務活動和成本資料的收集、分類、綜合、分析和解釋的基礎上形成協助決策的信息系統，以有效地管理經濟的一門應用學科，可以說它是社會學科的組成部分，也是一門重要的管理學科。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/person-holding-white-printer-paper-3740390.jpg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">審計</h4>
+                  <p>是對資料作出證據搜集及分析，以評估企業財務狀況，然後就資料及一般公認準則之間的相關程度作出結論及報告。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      
+      
+      
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
+      <div class="contact-form">
+        <div class="container">
+          <div class="row">     
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+              <div class="contact-us">
+                <h3>Contact With us</h3>
+                <div class="contact-address">
+                    
+                    
+                    
+                    
+        <p><strong><font size="5">TEL</font></strong></p>
+        <p><font size="4">0912345678</font></p>
+        <p ><strong><font size="5">EMAIL</font></strong></p>
+        <p ><a href="#"><font size="4" color="white">mail@fjucm.org</font></a></p>
+        <p ><strong><font size="5">ADDRESS</font></strong></p>
+        <p><font size="4" color="white" face="微軟正黑體">24205 新北市新莊區中正路510號</font></p>
+                </div>
+               
+              </div>
+            </div>     
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+              <div class="contact-block">
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>                                 
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group"> 
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button text-center">
+                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div class="clearfix"></div> 
+                      </div>
+                    </div>
+                  </div>            
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>           
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>          
+      <div class="container">
+        <div class="row">
+          <!-- Footer Links -->
+          <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="copyright">
+              <p>DSGN &copy; 2020 | Designed by Sally & Vivian & Jessica </p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End --> 
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lnr lnr-arrow-up"></i>
+    </a>
+    
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>     
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/owl.carousel.js"></script>    
+    <script src="js/jquery.stellar.min.js"></script>    
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/scrolling-nav.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>    
+    <script src="js/smoothscroll.js"></script>    
+    <script src="js/jquery.slicknav.js"></script>     
+    <script src="js/wow.js"></script>   
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>    
+    <script src="js/jquery.magnific-popup.min.js"></script>    
+    <script src="js/waypoints.min.js"></script>    
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>   
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

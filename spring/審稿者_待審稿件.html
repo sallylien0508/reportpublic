@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>輔仁管理評論投稿系統</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+      
+    <link rel="stylesheet" href="css/style.css">
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      
+    <style type="text/css">
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: #c7b198;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+#table1{
+    font-family: "微軟正黑體";
+    color:black;
+    font-size: 18px;
+}
+
+.search{
+    padding:5px 15px; 
+    background:#c7b198 ; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;    
+}
+
+
+        
+    </style>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-stretch">
+	    		<div class="col-3 d-flex align-items-center">
+                    <a class="navbar-brand" href="../%E9%A6%96%E9%A0%81_%E5%AF%A9%E7%A8%BF%E8%80%85.html">FU JEN <span><font face="微軟正黑體">投稿系統</font></span></a>
+			    </div>
+					<div class="col-9 d-flex align-items-center text-right">
+		      	<ul class="ftco-social mt-2 mr-3">
+		          <li class="ftco-animate"><a href="../index.html"><span class="fas fa-sign-out-alt"></span></a></li>
+		          <li class="ftco-animate"><a href="#"><span class="far fa-envelope"></span></a></li>
+		          <li class="ftco-animate"><a href="#"><span class="fas fa-phone"></span></a></li>
+		        </ul>
+                        
+                        
+			      <button class="navbar-toggler d-flex align-items-center" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="pt-1 mr-1">Menu</span> <span class="oi oi-menu"></span>
+			      </button>
+		      </div>
+
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	       <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="../%E9%A6%96%E9%A0%81_%E5%AF%A9%E7%A8%BF%E8%80%85.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./%E5%AF%A9%E7%A8%BF%E8%80%85_%E6%89%80%E6%9C%89%E8%A9%95%E9%96%B1.html" class="nav-link"><font face="微軟正黑體">所有評閱</font></a></li>
+                <li class="nav-item"><a href="./%E5%AF%A9%E7%A8%BF%E8%80%85_%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99.html" class="nav-link"><font face="微軟正黑體">個人資料</font></a></li>
+                <li class="nav-item"><a href="./%E5%AF%A9%E7%A8%BF%E8%80%85_%E5%BE%85%E5%AF%A9%E7%A8%BF%E4%BB%B6.html" class="nav-link"><font face="微軟正黑體">待審稿件</font></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/homepage.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          	<h1 class="mb-0"><i class="fas fa-user-alt"></i><br>Reviewer</h1>
+          	<h3 class="subheading mb-4 pb-1"></h3>
+              <!--
+          	<p><a href="#" class="btn btn-primary py-3 px-4">New here!</a> <a href="#" class="btn btn-white py-3 px-4"><span class="icon-play-circle"></span> Live Stream</a></p>
+              -->
+            <div class="mouse">
+                <a href="#" class="mouse-icon">
+                    <div class="mouse-wheel"><span class="ion-ios-arrow-down"></span></div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--
+    <section class="ftco-intro py-5" style="background-image: url(images/bg_4.jpg);">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-flex align-items-center">
+    			<div class="col-md-6 ftco-animate">
+    				<h2 class="subheading"><span class="icon-calendar"></span> Upcoming Events</h2>
+    				<h2><a href="#">"The Law Demands, but Grace Supplies" &mdash; Pastor John Doe </a></h2>
+    			</div>
+    			<div class="col-md-6 pl-md-5 ftco-animate">
+    				<div id="timer" class="d-flex mb-3">
+						  <div class="time" id="days"></div>
+						  <div class="time pl-4" id="hours"></div>
+						  <div class="time pl-4" id="minutes"></div>
+						  <div class="time pl-4" id="seconds"></div>
+						</div>
+						<p><a href="#" class="btn btn-primary px-4 py-2">Join our event</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+-->
+<!--
+    <section class="ftco-daily-verse bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center">
+    			<div class="col-md-10 daily-verse text-center p-5">
+    				<span class="flaticon-bible"></span>
+    				<h3 class="ftco-animate">"16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."</h3>
+    				<h4 class="h5 mt-4 font-weight-bold ftco-animate">&mdash; John 3:16 KJV</h4>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+-->
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+              <h2 class="mb-2"><span class="px-4"><font face="微軟正黑體">待審稿件</font></span></h2>
+            <span class="subheading">Pending Manuscripts</span>
+          </div>
+        </div>
+        <table class="table table-striped" id="table1">
+            <thead>
+              <tr bgcolor="black" valign="center">
+                <th scope="col"></th>
+                <th scope="col"><font color="white" size="4">文件</font></th>
+                <th scope="col"><font color="white" size="4">領域</font></th>
+                <th scope="col"><font color="white" size="4">下載</font></th>
+                <th scope="col"><font color="white" size="4">回覆</font></th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2019-03-24</th>
+                <td><font color='#c7b198'>人力資源之個案</font></td>
+                <td>人力資源管理</td>
+                <td><a href="./%E8%A1%8C%E9%8A%B7%E7%BE%8E%E5%AD%B8%E8%A6%81%E7%B4%A0%E4%B9%8B%E5%88%9D%E6%8E%A2.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal">
+                  <div class="modal-dialog" role="document"> 
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h5 class="modal-title">回覆意見檔</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                         </div>
+                         <div class="modal-body">
+                         <p>
+                             <form>
+                                 <div class="form-group">
+                                   <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                  </p>
+                                   
+                                 </div>
+                              </form>
+                         </p> 
+                        
+                         </div>
+                         <div class="modal-footer">
+                             <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                             <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                         </div>
+                    </div>
+                </div>
+             </div>
+                 <div>
+                     <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal()"></i>
+                 </div>
+                     
+             <script>
+                 function showModal() {
+                      $('#modal').modal('show'); 
+                 }
+             </script>
+             </td>
+               
+              </tr>
+              <tr>
+               
+                <th scope="row">2019-03-30</th>
+                <td><font color='#c7b198'>資訊管理研究主題的趨勢分析</font></td>
+                <td>資訊管理</td>
+                <td><a href="./%E8%B3%87%E8%A8%8A%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6%E4%B8%BB%E9%A1%8C%E7%9A%84%E8%B6%A8%E5%8B%A2%E5%88%86%E6%9E%90.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal2">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal2()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal2() {
+                        $('#modal2').modal('show'); 
+                   }
+               </script>
+                </td>
+                
+              </tr>
+             <tr>
+                <th scope="row">2019-04-01</th>
+                <td><font color='#c7b198'>3D列印技術對國際貿易之影響</font></td>
+                <td>國際貿易</td>
+                <td><a href="./3D%E5%88%97%E5%8D%B0%E6%8A%80%E8%A1%93%E5%B0%8D%E5%9C%8B%E9%9A%9B%E8%B2%BF%E6%98%93%E4%B9%8B%E5%BD%B1%E9%9F%BF.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal3">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal3()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal3() {
+                        $('#modal3').modal('show'); 
+                   }
+               </script>
+                </td>
+            
+              </tr>
+              <tr>
+                <th scope="row">2019-04-13</th>
+                <td><font color='#c7b198'>美國學校危機管理的模式與政策</font></td>
+                <td>生產與作業管理</td>
+                <td><a href="./%E7%BE%8E%E5%9C%8B%E5%AD%B8%E6%A0%A1%E5%8D%B1%E6%A9%9F%E7%AE%A1%E7%90%86%E7%9A%84%E6%A8%A1%E5%BC%8F%E8%88%87%E6%94%BF%E7%AD%96.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal4">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal4()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal4() {
+                        $('#modal4').modal('show'); 
+                   }
+               </script>
+                </td>
+            
+              </tr>
+           
+              <tr>
+                <th scope="row">2019-04-15</th>
+                <td><font color='#c7b198'>生產管理應用於服務系統設計之研究</font></td>
+                <td>生產與作業管理</td>
+                <td><a href="./%E7%94%9F%E7%94%A2%E7%AE%A1%E7%90%86%E6%87%89%E7%94%A8%E6%96%BC%E6%9C%8D%E5%8B%99%E7%B3%BB%E7%B5%B1%E8%A8%AD%E8%A8%88%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal6">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal6()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal6() {
+                        $('#modal6').modal('show'); 
+                   }
+               </script>
+                </td>
+               
+              </tr>
+              <tr>
+              
+              <tr>
+          
+              <tr>
+                <th scope="row">2019-04-20</th>
+                <td><font color='#c7b198'>人力資源績效評價中的數量方法研究</font></td>
+                <td>人力資源</td>
+                <td><a href="./%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%BB%A9%E6%95%88%E8%AF%84%E4%BB%B7%E4%B8%AD%E7%9A%84%E6%95%B0%E9%87%8F%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal9">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <p>審稿決定:&nbsp;&nbsp;
+                                      <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                                
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal9()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal9() {
+                        $('#modal9').modal('show'); 
+                   }
+               </script>
+                </td>
+              
+              </tr>
+              <tr>
+            
+              <tr>
+                <th scope="row">2019-04-28</th>
+                <td><font color='#c7b198'>審計問題解釋函彙編審計實務與運用</font></td>
+                <td>審計</td>
+                <td><a href="./%E5%AF%A9%E8%A8%88%E5%95%8F%E9%A1%8C%E8%A7%A3%E9%87%8B%E5%87%BD%E5%BD%99%E7%B7%A8%E5%AF%A9%E8%A8%88%E5%AF%A6%E5%8B%99%E8%88%87%E9%81%8B%E7%94%A8.pdf"><i class="fas fa-file-download" style="color: black; font-size: 18px"></i></a></td>
+                <td>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal11">
+                    <div class="modal-dialog" role="document"> 
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">回覆意見檔</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> 
+                           </div>
+                           <div class="modal-body">
+                           <p>
+                               <form>
+                                   <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                   <p>審稿決定:&nbsp;&nbsp;
+                                     <input type ="radio" name ="reply" value ="reply1">接受&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply2">大幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply3">小幅修正&nbsp;&nbsp;
+                                    <input type ="radio" name ="reply" value ="reply4">拒絕
+                                   </div>
+                                </form>
+                                
+                           </p> 
+                          
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                               <button type="button" class="btn btn-primary" onclick="confirm('新增成功')">送出</button>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+                   <div>
+                       <i class="fas fa-arrow-circle-up" style="color: black; font-size: 18px" onclick="showModal11()"></i>
+                   </div>
+                       
+               <script>
+                   function showModal11() {
+                        $('#modal11').modal('show'); 
+                   }
+               </script>
+                </td>
+      
+              </tr>
+            </tbody>
+          </table>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+      
+                                
+
+            
+            
+            
+            
+            <!--
+    		<div class="row">
+    			<div class="col-lg-6">
+    				<div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-praying"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Daily Prayers</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-church"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Church Community</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-bible"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Teaching</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+    			</div>
+
+    			<div class="col-lg-6">
+    				<div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-social-care"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Helpers</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rings"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Wedding</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-promotion"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Events</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+    			</div>
+    		</div>
+            -->
+    	</div>
+    </section>
+<!--
+    <section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section heading-section-light ftco-animate">
+            <h2 class="mb-2"><span class="px-4">Sermon for Today</span></h2>
+            <span class="subheading">Experience God's Presence</span>
+          </div>
+        </div>
+    		<div class="row d-flex sermon-wrap">
+  				<div class="col-md-6 d-flex align-items-stretch ftco-animate">
+  					<div class="img" style="background-image: url(images/sermon-1.jpg);"></div>
+  				</div>
+  				<div class="col-md-6 py-4 text ftco-animate">
+  					<h2 class="mb-4"><a href="sermon.html">Lord is Sufficient for all of our needs</a></h2>
+  					<div class="meta">
+  						<p>
+	  						<span>Sermon from: <a href="#" class="ptr">Felix Gonner</a></span>
+	  						<span>Categories: <a href="#">God</a>, <a href="#">Pray</a></span>
+	  						<span><a href="#">On Sunday 13 Jan, 2019</a></span>
+  						</p>
+  					</div>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<p class="mt-4 btn-customize">
+							<a href="https://vimeo.com/45830194" class="btn btn-primary px-4 py-3 mr-md-2 popup-vimeo"><span class="icon-play"></span> Watch Sermons</a> <a href="#" class="btn btn-black px-4 py-3 ml-lg-2"><span class="icon-download"></span> Download Sermons</a>
+						</p>
+  				</div>
+    		</div>
+    	</div>
+    </section>
+-->
+<!--
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 order-last d-flex flex-column align-items-stretch">
+    				<div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url(images/about.jpg);">
+    					<div class="desc">
+    						<h3><a href="#" class="p-2">Sunday Services</a></h3>
+    					</div>
+    				</div>
+    				<div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url(images/about-2.jpg);">
+    					<div class="desc">
+    						<h3><a href="#" class="p-2">Announcement</a></h3>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 px-5 py-5">
+    				<div class="row justify-content-start pt-3 pb-3">
+		          <div class="col-md-12 heading-section heading-section-no-line ftco-animate">
+		            <h2 class="mb-4">About Spring Church</h2>
+		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+		          </div>
+		        </div>
+		    		<div class="row">
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		              	<div class="icon d-flex justify-content-center align-items-center">
+		              		<span class="flaticon-bible"></span>
+		              	</div>
+		                <strong class="number" data-number="70000">0</strong>
+		                <span>Members</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		              	<div class="icon d-flex justify-content-center align-items-center">
+		              		<span class="flaticon-bible"></span>
+		              	</div>
+		                <strong class="number" data-number="1000">0</strong>
+		                <span>Pastors</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		              	<div class="icon d-flex justify-content-center align-items-center">
+		              		<span class="flaticon-bible"></span>
+		              	</div>
+		                <strong class="number" data-number="100000">0</strong>
+		                <span>Donation</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		              	<div class="icon d-flex justify-content-center align-items-center">
+		              		<span class="flaticon-bible"></span>
+		              	</div>
+		                <strong class="number" data-number="100">0</strong>
+		                <span>Churches</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+-->
+<!--
+    <section class="ftco-section testimony-section" style="background-image: url(images/bg_3.jpg);">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-2">Inspirational Testimony</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-8 py-5">
+    				<div class="heading-section heading-section-no-line ftco-animate mb-5">
+	            <h2 class="mb-2">Upcoming Events</h2>
+	            <span class="subheading">Experience God's Presence</span>
+	          </div>
+	          <div class="event-wrap d-md-flex ftco-animate">
+	          	<div class="img"style="background-image: url(images/sermon-1.jpg);"></div>
+	          	<div class="text pl-md-5">
+	          		<h2 class="mb-3"><a href="sermons.html">Know Jesus Christ Better Through Lines</a></h2>
+	          		<div class="meta">
+		  						<p>
+			  						<span><i class="icon-calendar mr-2"></i> Monday, 8:00 Am - Tuesday, 8:00 Pm</span>
+			  						<span><i class="icon-my_location mr-2"></i> <a href="#">Spring Church</a></span>
+			  						<span><i class="icon-location_city mr-2"></i> 203 Fake St. Mountain View, San Francisco, California, USA</span>
+		  						</p>
+		  					</div>
+		  					<p><a href="sermons.html" class="btn btn-primary">Read more</a></p>
+	          	</div>
+	          </div>
+	          <div class="event-wrap d-md-flex ftco-animate">
+	          	<div class="img"style="background-image: url(images/sermon-2.jpg);"></div>
+	          	<div class="text pl-md-5">
+	          		<h2 class="mb-3"><a href="sermons.html">Know Jesus Christ Better Through Lines</a></h2>
+	          		<div class="meta">
+		  						<p>
+			  						<span><i class="icon-calendar mr-2"></i> Monday, 8:00 Am - Tuesday, 8:00 Pm</span>
+			  						<span><i class="icon-my_location mr-2"></i> <a href="#">Spring Church</a></span>
+			  						<span><i class="icon-location_city mr-2"></i> 203 Fake St. Mountain View, San Francisco, California, USA</span>
+		  						</p>
+		  					</div>
+		  					<p><a href="sermons.html" class="btn btn-primary">Read more</a></p>
+	          	</div>
+	          </div>
+
+    			</div>
+    			<div class="col-lg-4 d-flex align-items-stretch">
+    				<div class="subsermon p-5">
+    					<h2 class="heading mb-5 ftco-animate">Recent Sermons</h2>
+    					<div class="sermon-wrap mb-4 ftco-animate">
+	    					<a href="sermons.html" class="img mb-3" style="background-image: url(images/event-1.jpg);"></a>
+	    					<div class="text">
+	    						<h2 class="mb-4"><a href="sermon.html">Lord is Sufficient for all of our needs</a></h2>
+			  					<div class="meta">
+			  						<p>
+				  						<span>Sermon from: <a href="#" class="ptr">Felix Gonner</a></span>
+				  						<span>Categories: <a href="#">God</a>, <a href="#">Pray</a></span>
+				  						<span><a href="#">On Sunday 13 Jan, 2019</a></span>
+			  						</p>
+			  					</div>
+									<p class="mt-4">
+										<a href="https://vimeo.com/45830194" class="btn-custom  p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch Sermons</a>
+									</p>
+									<p class="mt-4">
+										<a href="#" class="btn-custom  p-2 text-center"><span class="icon-download"></span> Download Sermons</a>
+									</p>
+	    					</div>
+    					</div>
+    					<a href="sermons.html" class="sermon-wrap sermon-wrap-2 d-flex align-items-start py-3 ftco-animate">
+    						<div class="icon">
+	    						<span class="icon-play"></span>
+    						</div>
+    						<div class="desc">
+	    						<h3>Fruit of the Spirit</h3>
+	    						<span class="time">20:30 mins</span>
+    						</div>
+    					</a>
+    					<a href="sermons.html" class="sermon-wrap sermon-wrap-2 d-flex align-items-start py-3 ftco-animate">
+    						<div class="icon">
+	    						<span class="icon-play"></span>
+    						</div>
+    						<div class="desc">
+	    						<h3>Fruit of the Spirit</h3>
+	    						<span class="time">20:30 mins</span>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section heading-section-light ftco-animate">
+            <h2 class="mb-2"><span class="px-4">Recent Blog</span></h2>
+            <span class="subheading">Our Blog</span>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">18</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">15</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">14</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section ftco-gallery">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="row no-gutters">
+							<div class="col-md-6 ftco-animate">
+								<a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_1.jpg);">
+									<div class="icon mb-4 d-flex align-items-center justify-content-center">
+		    						<span class="icon-instagram"></span>
+		    					</div>
+								</a>
+							</div>
+							<div class="col-md-6 ftco-animate">
+								<a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_2.jpg);">
+									<div class="icon mb-4 d-flex align-items-center justify-content-center">
+		    						<span class="icon-instagram"></span>
+		    					</div>
+								</a>
+							</div>
+							<div class="col-md-6 ftco-animate">
+								<a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_3.jpg);">
+									<div class="icon mb-4 d-flex align-items-center justify-content-center">
+		    						<span class="icon-instagram"></span>
+		    					</div>
+								</a>
+							</div>
+							<div class="col-md-6 ftco-animate">
+								<a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_4.jpg);">
+									<div class="icon mb-4 d-flex align-items-center justify-content-center">
+		    						<span class="icon-instagram"></span>
+		    					</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 d-flex align-items-stretch">
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+    <section class="ftco-section ftco-section-parallax bg-secondary ftco-no-pb">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white heading-section-no-line ftco-animate">
+              <h2>Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-4 mb-4">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+  <div class="container">
+    <!--
+    <div class="row mb-5">
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Spring Church</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">About</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Staff</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Beliefs</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>History</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Mission</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Wedding &amp; Funerals</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Jobs &amp; Internship</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Fellowships</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Connect</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home Groups</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Recovery Groups</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Memberships</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Children &amp; Students</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Volunteer</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Counseling</a></li>
+            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Assistance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+         <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Service Hours</h2>
+          <div class="opening-hours">
+            <h4>Services Hours</h4>
+            <p class="pl-3">
+              <span class="mb-3">Saturday Prayer Meeting &mdash; 10:00 am to 11:30 am</span>
+              <span>Sunday Service &mdash; 8:30 am to 11:30 am</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+DSGN &copy; 2020 | Designed by Sally & Vivian & Jessica
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
